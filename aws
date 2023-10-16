@@ -1,0 +1,20 @@
+to create a new branch : git branch filename
+to see the how many branches are there : git branch
+to change(switch) from one branch to another : git checkout branchname
+to delete a branch : git branch -d branchname
+to merge from one branch to another : git merge branchname (if there are 2 branches b1 and b2. you want to merge both, you should be in b1 and now call the function git merge b2)
+to get particular commits : git cherry-pick commitid1 commitid2 commit5 etc..,
+git checkout -b branchname = to create new branch + swithch to that new branch
+to delete a branch : git branch -d branchname
+To delete a branch forcefully : git branch -D branchname
+to midify or change the name of the branch : git branch -m oldbranchname newbranchname
+MERGE CONFLICTS :
+git merge --abort : conflicts will not appear
+
+GIT STASH
+git stash - to clear the data temporarily
+git stash apply : to re-add the data which is temporarily deleted 
+git stash clear : to clear the data permanently
+git stash list: to see the list of stashes
+git stash drop stash number : to delete the particular stash
+
