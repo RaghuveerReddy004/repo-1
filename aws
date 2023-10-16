@@ -10,10 +10,9 @@ To delete a branch forcefully : git branch -D branchname
 to midify or change the name of the branch : git branch -m oldbranchname newbranchname
 MERGE CONFLICTS :
 git merge --abort : conflicts will not appear
+111111111111111111111111111111111111
+444444444444444444444444444444444444444
 
-GIT STASH
-git stash - to clear the data temporarily
-git stash apply : to re-add the data which is temporarily deleted 
 git stash clear : to clear the data permanently
 git stash list: to see the list of stashes
 git stash drop stash number : to delete the particular stash
